@@ -23,7 +23,7 @@ nano ~/.kube/config \
  context: \
     cluster: minikube \
     user: deploy_view \
-  name: deploy_view \
+  name: deploy_view 
 
 - name: deploy_view \
   user: \
@@ -57,12 +57,11 @@ kubectl config set-context deploy_edit \
 
 
 
-nano ~/.kube/config \ 
-
+nano ~/.kube/config \
  context: \
     cluster: minikube \
     user: deploy_edit \
-  name: deploy_edit \
+  name: deploy_edit 
 
 - name: deploy_edit \
   user: \
@@ -101,7 +100,7 @@ nano ~/.kube/config \
  context: \
     cluster: minikube \
     user: prod_admin \
-  name: prod_admin \
+  name: prod_admin 
 
 - name: prod_admin \
   user: \
@@ -134,8 +133,7 @@ kubectl config set-context prod_view \
 --cluster=minikube --user=prod_view
 
 
-nano ~/.kube/config 
-
+nano ~/.kube/config \
  context: \
     cluster: minikube \
     user: prod_view \
